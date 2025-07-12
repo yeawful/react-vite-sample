@@ -1,8 +1,26 @@
 {
-    "singleQuote": true,
-    "trailingComma": "all",
-    "printWidth": 100,
-    "tabWidth": 4,
-    "semi": true,
-    "useTabs": false
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": true,
+  "jsxSingleQuote": false,
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "printWidth": 80,
+  "importOrder": [
+    "^react$",
+    "^react-dom$",
+    "^react-router-dom$",
+    "^@reduxjs/toolkit$",
+    "^next$",
+    "^antd$|^@mui/",
+    "^@/(.*)$",
+    "^[../]",
+    "^[./]",
+    "(.scss|.css|.less|.module.scss|.png|.svg)$"
+  ],
+  "importOrderSeparation": false,
+  "importOrderSortSpecifiers": true,
+  "importOrderCaseInsensitive": true,
+  "plugins": ["@trivago/prettier-plugin-sort-imports"]
 }
