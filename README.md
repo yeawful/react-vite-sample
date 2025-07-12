@@ -1,12 +1,43 @@
-# React + Vite
+# React + Vite + JavaScript Boilerplate
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Современный шаблон для быстрого старта проектов на React с JavaScript, включающий все необходимые инструменты для разработки.
 
-Currently, two official plugins are available:
+## 🌟 Основные возможности
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚡️ **Vite** - сверхбыстрый сборщик
+- 🧩 **React 19** с современным синтаксисом
+- 🛡 **ESLint + Prettier** - линтинг и форматирование
+- 🐶 **Husky + lint-staged** - pre-commit хуки
+- 🎨 **SCSS** с глобальными переменными
+- 📁 **Алиасы путей** (`@/`)
+- 🔍 **Готовые конфиги** для VSCode
 
-## Expanding the ESLint configuration
+## 🚀 Быстрый старт
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Установите зависимости:
+```bash
+npm i
+```
+
+2. Запустите dev-сервер:
+```bash
+npm run dev
+```
+
+3. Для продакшн-сборки:
+```bash
+npm run build
+```
+
+## 🔧 Инструменты
+
+- **Линтинг**: `npm run lint` или `npm run lint:fix` для автоматического исправления
+- **Форматирование**: `npm run format`
+- **Pre-commit хуки**: автоматический линтинг и форматирование
+
+## 🔄 Обновление
+
+Для обновления зависимостей:
+```bash
+npm update
+```
