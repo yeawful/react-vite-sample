@@ -6,6 +6,7 @@ import pluginReactHooks from 'eslint-plugin-react-hooks';
 export default [
   {
     files: ['**/*.{js,jsx}'],
+    ignores: ['**/dist/**', '**/node_modules/**'],
     languageOptions: {
       ecmaVersion: 'latest',
       sourceType: 'module',
